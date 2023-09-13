@@ -3,11 +3,7 @@
 void main(){
 	int a,b;
     char c;
-    // printf("Enter 1 For Addtion \n");
-    // printf("Enter 2 For Substraction \n");
-    // printf("Enter 3 For Multiplication \n");
-    // printf("Enter 4 For Division \n");
-    // printf("Enter 5 For Modulo \n");
+	
 	printf("Enter value : ");
 	scanf("%d",&a);
     printf("Enter Arithmatic Sign : ");
