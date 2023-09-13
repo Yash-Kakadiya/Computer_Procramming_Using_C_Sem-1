@@ -3,7 +3,7 @@
 void main(){
 	int a,b;
     char c;
-	
+
 	printf("Enter value : ");
 	scanf("%d",&a);
     printf("Enter Arithmatic Sign : ");
@@ -40,9 +40,12 @@ void main(){
 			a=(a%b);
 			printf("Answer = %d\n",(a));
 			break;
+        case '=':	
+			printf("Answer = %d\n",(a));
+			break;
 		default:
              c='0';
-			printf("Invalid Number Mathematical calculation");
+			printf("Invalid Invalid Sign For Mathematical calculation");
 			break;
 	}
     if(c!=0){
