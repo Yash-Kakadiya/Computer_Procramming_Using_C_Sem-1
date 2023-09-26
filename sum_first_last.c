@@ -11,10 +11,9 @@ void main(){
         
     }
     n=x;
-    while(n!=0){
         r=n%10;
-        sum=sum+r;
         n=n/(pow(10,l-1));
-    }
+        sum=n+r;
+    
     printf("Sum of First and Last Digit of Number = %d",sum);
 }
