@@ -8,7 +8,8 @@ void main(){
 
     while(i<=(n/2)){
         if(n%i==0){
-            flag++;
+            flag++;
+            break;
         }
        i++;
     }
