@@ -8,12 +8,9 @@ void main(){
 
     while(i<=(n/2)){
         if(n%i==0){
-            flag++;
-            i++;
+            flag++;
         }
-        else{
-            i++;
-        }
+       i++;
     }
     if(flag==0){
         printf("Prime Number");
