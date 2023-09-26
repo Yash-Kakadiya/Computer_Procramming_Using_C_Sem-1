@@ -12,5 +12,5 @@ void main(){
 		ans=ans*a;
 		i++;
 	}
-	printf("%d ^ %d = "a,b,ans);
+	printf("%d ^ %d = ",a,b,ans);
 }
