@@ -5,14 +5,14 @@ void main(){
 	
 	char i='A';
 	while(i<='Z'){
-			printf("%c",i);
+			printf("%c\n",i);
 			
 				i++;
 		}
 			printf("\n");
 		i='a';
 	while(i<='z'){
-			printf("%c",i);
+			printf("%c\n",i);
 				i++;
 				}
 }
