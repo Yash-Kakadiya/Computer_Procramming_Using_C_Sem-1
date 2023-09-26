@@ -7,10 +7,10 @@ void main(){
     while(n!=0){
         i++;
         sum=sum+n;
-        avg=sum/i;
         printf("Enter Next Number : ");
         scanf("%d",&n);
     }
+    avg=sum/i;
     printf("Sum = %d\n",sum);
     printf("Average = %d\n",avg);
 }
