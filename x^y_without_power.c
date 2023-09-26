@@ -12,5 +12,5 @@ void main(){
 		ans=ans*a;
 		i++;
 	}
-	printf("Square of %d is %d",a,ans);
+	printf("%d ^ %d = "a,b,ans);
 }
