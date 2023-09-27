@@ -21,7 +21,7 @@ void main(){
             }
         }
         else{
-            for(r=y-x;r<=y;r++){
+            for(r=y/2;r<=y;r++){
                 for(k=y-1;k>=r;k--){
                     printf(" ");
                     }
@@ -33,10 +33,10 @@ void main(){
         }
     }
     for(r=1;r<=x;r++){
-        for(k=x;k>=1;k--){
+        for(k=(y/2)+1;k>=1;k--){
             printf(" ");
         }
-        for(c=1;c<=y-x;c++){
+        for(c=1;c<=y/2;c++){
             printf(" *");
         }
         printf("\n");
