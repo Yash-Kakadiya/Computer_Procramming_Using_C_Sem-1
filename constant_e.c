@@ -5,10 +5,7 @@ void main(){
 	printf("Enter Number upto which you want to find e : ");
 	scanf("%d",&n);
     for(i=1;i<=n;i++){
-        fac=1;
-        for(j=1;j<=i;j++){
-		fac=fac*j;
-	    }
+		fac=fac*i;
         sum=sum+(1/fac);
     }
 	
