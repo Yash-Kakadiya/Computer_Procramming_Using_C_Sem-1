@@ -21,10 +21,9 @@ void main(){
 	
 	avg=sum/(float)n;
 	
-	gm=pow(mul,(1/n));
+	gm=pow(mul,(1/(float)n));
 	
 	hm=(pow(gm,n))/avg;
-	}
 	
 	printf("Average : %f\n",avg);
 	printf("Geometric Mean : %f\n",gm);
