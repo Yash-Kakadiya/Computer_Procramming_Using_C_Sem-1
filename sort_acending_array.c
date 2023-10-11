@@ -14,11 +14,11 @@ void main(){
 	}
 	
 	for(i=0;i<n-1;i++){
-		for(j=0;j<n-i-1;j++){
-			if(num[j]>num[j+1]){
+		for(j=i+1;j<n;j++){
+			if(num[i]>num[j]){
 				x=num[i];
-				num[i]=num[i+1];
-				num[i+1]=x;
+				num[i]=num[j];
+				num[j]=x;
 			}
 		}
 	}
