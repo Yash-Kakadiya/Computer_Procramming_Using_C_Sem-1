@@ -1,3 +1,4 @@
+//Print 1 to n using while and do while loop
 #include<stdio.h>
 
 void main(){
