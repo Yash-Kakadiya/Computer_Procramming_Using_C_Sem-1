@@ -24,7 +24,7 @@ void main(){
 			}
 		}
 	}
-	printf("Array after deletation of duplicate numbers");
+	printf("Array after deletation of duplicate numbers\n");
 	for(i=0;i<size;i++){
 		printf("%d\n",arr[i]);
 	}
