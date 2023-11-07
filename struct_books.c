@@ -16,7 +16,7 @@ void main(){
 		printf("Enter Publication of Book no.%d : ",i+1);
 		scanf("%s",b[i].publication);
 		printf("Enter Price of Book no.%d : ",i+1);
-		scanf("%d",&b[i].price);
+		scanf("%f",&b[i].price);
 		printf("---------------------------------------\n");
 	}
 	
@@ -24,7 +24,7 @@ void main(){
 		printf("Title of Book no.%d : %s\n",i+1,b[i].title);
 		printf("Author of Book no.%d : %s\n",i+1,b[i].author);
 		printf("Publication of Book no.%d : %s\n",i+1,b[i].publication);
-		printf("Price of Book no.%d : %d\n",i+1,b[i].price);
+		printf("Price of Book no.%d : %f\n",i+1,b[i].price);
 		printf("---------------------------------------\n");
 	}	
 }
