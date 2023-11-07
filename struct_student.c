@@ -19,7 +19,7 @@ void main(){
 		printf("---------------------------------------\n");
 	}
 	
-	for(i=0;i<3;i++){
+	for(i=0;i<5;i++){
 		printf("Name of Student no.%d : %s",i+1,s[i].name);
 		printf("Age of Student no.%d : %d",i+1,s[i].age);
 		printf("Percentage of Student no.%d : %f",i+1,s[i].per);
